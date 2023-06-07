@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v3
     - name: gcc
       run: gcc sleep.c
+    - run: ls
     - run: ./sleep
